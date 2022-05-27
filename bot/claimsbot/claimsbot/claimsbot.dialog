@@ -222,6 +222,10 @@
             {
               "property": "user.CustomVisionKey",
               "value": "=settings.customVisionKey"
+            },
+            {
+              "property": "user.StorageAccount",
+              "value": "=settings.storageAccount"
             }
           ]
         },
@@ -331,7 +335,7 @@
                   },
                   "blobName": "=user.blobName",
                   "container": "=concat(\"images\")",
-                  "storageString": "=concat(\"DefaultEndpointsProtocol=https;AccountName=fsihackstor;AccountKey=wCqZ4IIQICXPlxlwf/JS4lEpRZNlqgpU4b+p5zjNUH6Rt9zc72okX9J8FJQ1qkNTR0iVb8UR5eL6jFpN1tdXuw==;EndpointSuffix=core.windows.net\")",
+                  "storageString": "=user.StorageAccount",
                   "contentUrl": "=user.imageUrl"
                 },
                 {
@@ -465,7 +469,7 @@
                       "$designer": {
                         "id": "mVtkFY"
                       },
-                      "storageString": "=concat(\"DefaultEndpointsProtocol=https;AccountName=fsihackstor;AccountKey=wCqZ4IIQICXPlxlwf/JS4lEpRZNlqgpU4b+p5zjNUH6Rt9zc72okX9J8FJQ1qkNTR0iVb8UR5eL6jFpN1tdXuw==;EndpointSuffix=core.windows.net\")",
+                      "storageString": "=user.StorageAccount",
                       "container": "=concat(\"upload\")",
                       "blobName": "=user.insBlobName",
                       "contentUrl": "=user.insImageUrl"
@@ -549,7 +553,7 @@
                           "$designer": {
                             "id": "0syG9E"
                           },
-                          "storageString": "=concat(\"DefaultEndpointsProtocol=https;AccountName=fsihackstor;AccountKey=wCqZ4IIQICXPlxlwf/JS4lEpRZNlqgpU4b+p5zjNUH6Rt9zc72okX9J8FJQ1qkNTR0iVb8UR5eL6jFpN1tdXuw==;EndpointSuffix=core.windows.net\")",
+                          "storageString": "=user.StorageAccount",
                           "container": "=concat(\"upload\")",
                           "blobName": "=user.dlBlobName",
                           "contentUrl": "=user.dlImageUrl"
@@ -634,7 +638,7 @@
                                 "id": "Xf7MEm"
                               },
                               "contentUrl": "=user.invImageUrl",
-                              "storageString": "=concat(\"DefaultEndpointsProtocol=https;AccountName=fsihackstor;AccountKey=wCqZ4IIQICXPlxlwf/JS4lEpRZNlqgpU4b+p5zjNUH6Rt9zc72okX9J8FJQ1qkNTR0iVb8UR5eL6jFpN1tdXuw==;EndpointSuffix=core.windows.net\")",
+                              "storageString": "=user.StorageAccount",
                               "container": "=concat(\"upload\")",
                               "blobName": "=user.invBlobName"
                             }

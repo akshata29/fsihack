@@ -1,0 +1,275 @@
+{
+    "sourceConnection": {
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYmY2Mzk0ZmE2ODJmZDEzZmQ0MmQ1NTEzYjAxYTQ5NzVlNDgwZGZhNzhiMmQ0YzU1MjkzYjEwYjFmN2IyMDUxN2Q2ZWI0ZTc3NTc1OTM1MzllZTcyYjMwNWNjNzg0ZTI3MThiMjAwZDE0MDg0MmFkMTkwMmUzYTRlNzA2ZTVlOWQiLCJpdiI6IjlmY2EyZDMxYzc1ZmJhYmUxOThmYjk2MDk5NjhmYjNhIn0="
+        },
+        "id": "Bfzj7OUAP",
+        "name": "1099",
+        "providerType": "localFileSystemProxy"
+    },
+    "name": "1099",
+    "apiUriBase": "http://localhost:5000",
+    "folderPath": "",
+    "securityToken": "1099 Token",
+    "version": "2.1.3",
+    "id": "0PDUhi2YNd",
+    "tags": [
+        {
+            "name": "PayerName",
+            "color": "#CC543A",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "PayerAddress",
+            "color": "#7BA23F",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "PayerTIN",
+            "color": "#58B2DC",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "RecipientTIN",
+            "color": "#FFB11B",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "RecipientName",
+            "color": "#2E5C6E",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "RecipientAddress",
+            "color": "#A96360",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "AccountNumber",
+            "color": "#D7C4BB",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "FATCA",
+            "color": "#8F77B5",
+            "type": "selectionMark",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "2ndTIN",
+            "color": "#EEA9A9",
+            "type": "selectionMark",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Rents",
+            "color": "#24936E",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "Royalties",
+            "color": "#994639",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "OtherIncome",
+            "color": "#BEC23F",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "FederalIncomeTaxWithheld",
+            "color": "#26453D",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "FishingBoatProceeds",
+            "color": "#FFBA84",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "MedicalHealthCarePayments",
+            "color": "#376B6D",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "DirectSale5000",
+            "color": "#E3916E",
+            "type": "selectionMark",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "SubstitutePayments",
+            "color": "#4F726C",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "CropInsuranceProceeds",
+            "color": "#78C2C4",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "GrossProceedsAttorney",
+            "color": "#616138",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "FishResale",
+            "color": "#2D6D4B",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "409ADeferrals",
+            "color": "#DAC9A6",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "ExcessGoldenParachutePayments",
+            "color": "#884C3A",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "NonqualifiedDeferredCompensation",
+            "color": "#336774",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "StateTaxWithheld",
+            "color": "#373C38",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "StateNo",
+            "color": "#F9BF45",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 0
+        },
+        {
+            "name": "StateIncome",
+            "color": "#4A593D",
+            "type": "number",
+            "format": "not-specified",
+            "documentCount": 0
+        }
+    ],
+    "assets": {
+        "0bb49046f1ea09e5d2872923d2ff3f4626b0759d50c571da06bd444bbb0e0f5e": {
+            "id": "0bb49046f1ea09e5d2872923d2ff3f4626b0759d50c571da06bd444bbb0e0f5e",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "/f1099_scanned.jpg",
+            "path": "file:D:/repos/fsihack/dataset/1099/f1099_scanned.jpg",
+            "size": null,
+            "mimeType": "image/jpeg",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "b38424e32d80f8b2c99274b3f41cff04ca6db277f791dee2b0e4d45d1b8a59b4": {
+            "id": "b38424e32d80f8b2c99274b3f41cff04ca6db277f791dee2b0e4d45d1b8a59b4",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/f1099msc_payer.pdf",
+            "path": "file:D:/repos/fsihack/dataset/1099/f1099msc_payer.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "a51e6e56d9061119f48bf9a2a477a9500da527d1a3e4092facee5626e0c863b4": {
+            "id": "a51e6e56d9061119f48bf9a2a477a9500da527d1a3e4092facee5626e0c863b4",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/f1099msc_recipient_2.pdf",
+            "path": "file:D:/repos/fsihack/dataset/1099/f1099msc_recipient_2.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "9f828e8554134437cdc8aa4572e318ba03b360dd6dc39f5b0c155775236df032": {
+            "id": "9f828e8554134437cdc8aa4572e318ba03b360dd6dc39f5b0c155775236df032",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/f1099msc_payer_2.pdf",
+            "path": "file:D:/repos/fsihack/dataset/1099/f1099msc_payer_2.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "1b273c20d8329df4cbb70a3598e5ac5d19762ee8cc7ffddaa2fabeec07b8bc22": {
+            "id": "1b273c20d8329df4cbb70a3598e5ac5d19762ee8cc7ffddaa2fabeec07b8bc22",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/f1099msc_recipient.pdf",
+            "path": "file:D:/repos/fsihack/dataset/1099/f1099msc_recipient.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "072e43ed97039537ce2ce303cc27fc3e42c9a1fb46e186dd250e4ccced62c973": {
+            "id": "072e43ed97039537ce2ce303cc27fc3e42c9a1fb46e186dd250e4ccced62c973",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "/f1099msc_state.pdf",
+            "path": "file:D:/repos/fsihack/dataset/1099/f1099msc_state.pdf",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        }
+    },
+    "lastVisitedAssetId": "b38424e32d80f8b2c99274b3f41cff04ca6db277f791dee2b0e4d45d1b8a59b4"
+}
